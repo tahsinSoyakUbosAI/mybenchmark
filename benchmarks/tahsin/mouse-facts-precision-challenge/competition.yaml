@@ -1,6 +1,6 @@
 version: 2
-title: Mouse Facts: Precision Challenge
-description: Scores an agent on precise, specific mouse-biology facts, rewarding correct detail and penalising confident wrong specifics.
+title: "Mouse Facts: Precision Challenge"
+description: "Scores an agent on precise, specific mouse-biology facts, rewarding correct detail and penalising confident wrong specifics."
 benchmark_format: unknown
 image: logo.png
 registration_auto_approve: true
