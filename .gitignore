@@ -1,0 +1,3 @@
+.benchgen-files.json
+__pycache__/
+*.pyc

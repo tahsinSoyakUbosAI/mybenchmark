@@ -1,0 +1,12 @@
+[
+  { "id": 0, "question": "Why do horses sleep standing up, and when do they lie down instead?", "instruction": "Answer in two or three sentences." },
+  { "id": 1, "question": "How should you safely approach an unfamiliar horse?", "instruction": "Answer in two or three sentences." },
+  { "id": 2, "question": "What does it mean when a horse pins its ears back?", "instruction": "Answer in two or three sentences." },
+  { "id": 3, "question": "Why do horses need regular hoof trimming or shoeing?", "instruction": "Answer in two or three sentences." },
+  { "id": 4, "question": "What should a healthy horse's daily diet mainly consist of?", "instruction": "Answer in two or three sentences." },
+  { "id": 5, "question": "Why is colic considered a medical emergency in horses?", "instruction": "Answer in two or three sentences." },
+  { "id": 6, "question": "What is the purpose of a warm-up before riding a horse?", "instruction": "Answer in two or three sentences." },
+  { "id": 7, "question": "Why do horses form social hierarchies within a herd?", "instruction": "Answer in two or three sentences." },
+  { "id": 8, "question": "How can you tell a horse's approximate age from its teeth?", "instruction": "Answer in two or three sentences." },
+  { "id": 9, "question": "Why should a horse be introduced gradually to a new feed?", "instruction": "Answer in two or three sentences." }
+]

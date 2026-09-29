@@ -1,0 +1,12 @@
+[
+  { "id": 0, "answer": ["stay|lock|tendon|ligament|predator|alert", "flight|escape|danger|instinct|flee", "rem|deep sleep|lie down"] },
+  { "id": 1, "answer": ["angle|side|shoulder", "calm|quiet|voice", "hand|let it see|smell|sniff"] },
+  { "id": 2, "answer": ["warning|threat|aggress", "annoy|irritat|discomfort", "pain|fear"] },
+  { "id": 3, "answer": ["hoof|hooves grow", "lameness|pain", "balance|posture|gait"] },
+  { "id": 4, "answer": ["forage|hay|grass", "fiber|fibre", "water"] },
+  { "id": 5, "answer": ["digest|intestine|intestinal|gut", "pain|distress", "rapid|quickly|death|fatal"] },
+  { "id": 6, "answer": ["muscle|warm", "injury|strain", "gradual|gradually|prepare"] },
+  { "id": 7, "answer": ["dominance|pecking order|rank", "safety|protection", "resource|resources|food|mate|mates"] },
+  { "id": 8, "answer": ["teeth|tooth wear|galvayne", "angle|shape", "age estimate|narrow the age"] },
+  { "id": 9, "answer": ["digest|microbiome|gut bacteria", "colic|upset", "gradual|gradually|slowly|over time"] }
+]
