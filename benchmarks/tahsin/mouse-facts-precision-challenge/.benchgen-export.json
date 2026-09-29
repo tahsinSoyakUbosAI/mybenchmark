@@ -1,0 +1,14 @@
+{
+  "benchmark": 106,
+  "exported_at": "2026-09-29T15:15:00.054Z",
+  "note": "Hashes of the files as the platform last gave them. Written by benchmark-version so an edit made here is never silently overwritten.",
+  "files": {
+    "ingestion_program/ingestion.py": "212760e068a8d6567294ccb5531ebf3229d0910773c89d37cfe04b0aae8539ce",
+    "ingestion_program/metadata.yaml": "3bc3a5fb1334285b622cde59bbd6111238c7aee4ab5ebd00d78aac19d2e4c4c0",
+    "phase/input_data/items.json": "5714b0c2f2dc500b97f4703a329a92e98532edc44c5bc3fc012c268f645cb53d",
+    "phase/reference_data/items.json": "d4f9997c7aacdc71d33dfc5bd7da0bc168752377cb6a02c4880911903e5f9038",
+    "scoring_program/item_results.py": "bf6393b5f1426bfe87d17f43388247430a5443299e7c1474c35bf763244cc508",
+    "scoring_program/metadata.yaml": "ce16d0afe260fff1d534de4594eacae1173f45315b8ea5144fcdca1a6e71af8a",
+    "scoring_program/scoring.py": "af8cf1a0d622bc8036cf9ddefcf2ff7dcee3334be992be5c47d3e5ee3171a2f9"
+  }
+}

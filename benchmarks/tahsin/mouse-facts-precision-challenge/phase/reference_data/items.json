@@ -1,0 +1,22 @@
+[
+  {"id": 0, "answer": "19|20|21 day", "bonus": ["about three week"], "traps": ["month", "9 day", "30 day"]},
+  {"id": 1, "answer": "4|5|6 week", "bonus": ["month"], "traps": ["year old", "1 year"]},
+  {"id": 2, "answer": "40 chromosome|20 pair", "bonus": ["diploid"], "traps": ["46 chromosome", "23 pair"]},
+  {"id": 3, "answer": "1|2|3 year", "bonus": ["two to three year"], "traps": ["5 year", "10 year", "20 year"]},
+  {"id": 4, "answer": "6|7|8|10|12 pup", "bonus": ["litter"], "traps": ["1 pup", "2 pup", "30 pup"]},
+  {"id": 5, "answer": "genetic|genome similar|shared gene", "bonus": ["short generation time|breed quickly|cheap|easy to house", "gene can be edit|knockout"], "traps": []},
+  {"id": 6, "answer": "37|36|38 degree|98|99|100 fahrenheit", "bonus": ["celsius"], "traps": ["25 degree", "20 degree"]},
+  {"id": 7, "answer": "500|600|700|400 beat", "bonus": ["per minute"], "traps": ["70 beat", "100 beat"]},
+  {"id": 8, "answer": "teeth|incisor grow|grow continuously", "bonus": ["wear down|keep short"], "traps": ["boredom", "lose teeth"]},
+  {"id": 9, "answer": "smell better|smell strong|poor eyesight|eyesight weak", "bonus": ["nocturnal|whisker"], "traps": ["excellent eyesight", "see far", "color vision"]},
+  {"id": 10, "answer": "seed|grain|plant|insect|fruit", "bonus": ["omnivor"], "traps": []},
+  {"id": 11, "answer": "similar number|about the same|comparable", "bonus": ["20000|23000 gene"], "traps": ["far fewer gene", "far more gene", "double the gene"]},
+  {"id": 12, "answer": "ultrasonic|high frequency", "bonus": ["communicat|pup|mating"], "traps": ["low frequency", "infrasound"]},
+  {"id": 13, "answer": "mischief|nest|horde", "bonus": [], "traps": ["pack", "herd", "pride"]},
+  {"id": 14, "answer": "hundred|thousand", "bonus": ["exponential"], "traps": ["ten", "twenty"]},
+  {"id": 15, "answer": "cat|owl|snake|fox|hawk|bird of prey", "bonus": [], "traps": []},
+  {"id": 16, "answer": "touch|feel surrounding|spatial awareness|navigate in dark", "bonus": ["vibrissa"], "traps": ["smell only", "see in dark"]},
+  {"id": 17, "answer": "black|brown black", "bonus": [], "traps": ["white", "brown", "agouti", "albino"]},
+  {"id": 18, "answer": "20|25|30|40 gram", "bonus": ["ounce"], "traps": ["1 kilogram", "500 gram", "100 gram"]},
+  {"id": 19, "answer": "teeth grow continuously|incisor never stop growing", "bonus": ["overgrow", "dental problem"], "traps": ["for fun", "boredom only"]}
+]

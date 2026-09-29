@@ -1,0 +1,22 @@
+[
+  {"id": 0, "question": "How long is a mouse's gestation period?", "instruction": "Answer in one or two sentences, with a specific number if you know it."},
+  {"id": 1, "question": "At what age do mice typically reach sexual maturity?", "instruction": "Answer in one or two sentences, with a specific number if you know it."},
+  {"id": 2, "question": "How many chromosomes does the house mouse (Mus musculus) have?", "instruction": "Answer in one or two sentences, with a specific number if you know it."},
+  {"id": 3, "question": "What is the average lifespan of a pet mouse?", "instruction": "Answer in one or two sentences, with a specific number if you know it."},
+  {"id": 4, "question": "How many pups are typically in a single mouse litter?", "instruction": "Answer in one or two sentences, with a specific number if you know it."},
+  {"id": 5, "question": "Why are mice so widely used as a model organism in genetics research?", "instruction": "Answer in two or three sentences."},
+  {"id": 6, "question": "What is a mouse's normal body temperature?", "instruction": "Answer in one or two sentences, with a specific number if you know it."},
+  {"id": 7, "question": "How fast can a mouse's heart beat?", "instruction": "Answer in one or two sentences, with a specific number if you know it."},
+  {"id": 8, "question": "Why do mice constantly gnaw on hard objects?", "instruction": "Answer in two or three sentences."},
+  {"id": 9, "question": "How good is a mouse's sense of smell compared to its eyesight?", "instruction": "Answer in two or three sentences."},
+  {"id": 10, "question": "What do wild mice eat in the wild?", "instruction": "Answer in two or three sentences."},
+  {"id": 11, "question": "How many known genes does the mouse genome carry compared to the human genome?", "instruction": "Answer in one or two sentences."},
+  {"id": 12, "question": "Why do mice squeak in a range humans mostly cannot hear?", "instruction": "Answer in two or three sentences."},
+  {"id": 13, "question": "What is a group of mice called?", "instruction": "Answer in one sentence."},
+  {"id": 14, "question": "How much can a mouse population grow in a year if left unchecked?", "instruction": "Answer in one or two sentences, with a specific number if you know it."},
+  {"id": 15, "question": "What predators commonly hunt wild mice?", "instruction": "Answer in two or three sentences."},
+  {"id": 16, "question": "Why is the mouse whisker system important to how it navigates?", "instruction": "Answer in two or three sentences."},
+  {"id": 17, "question": "What color is the coat of the standard laboratory mouse strain C57BL/6?", "instruction": "Answer in one sentence."},
+  {"id": 18, "question": "How much does an adult pet mouse typically weigh?", "instruction": "Answer in one or two sentences, with a specific number if you know it."},
+  {"id": 19, "question": "Why do mice need constant access to something to gnaw on in captivity?", "instruction": "Answer in two or three sentences."}
+]
