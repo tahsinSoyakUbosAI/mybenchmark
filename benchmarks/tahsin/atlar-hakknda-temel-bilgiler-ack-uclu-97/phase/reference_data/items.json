@@ -8,5 +8,8 @@
   { "id": 6, "answer": ["muscle|warm", "injury|strain", "gradual|gradually|prepare"] },
   { "id": 7, "answer": ["dominance|pecking order|rank", "safety|protection", "resource|resources|food|mate|mates"] },
   { "id": 8, "answer": ["teeth|tooth wear|galvayne", "angle|shape", "age estimate|narrow the age"] },
-  { "id": 9, "answer": ["digest|microbiome|gut bacteria", "colic|upset", "gradual|gradually|slowly|over time"] }
+  { "id": 9, "answer": ["digest|microbiome|gut bacteria", "colic|upset", "gradual|gradually|slowly|over time"] },
+  { "id": 10, "answer": ["cool|cooling|temperature|heat", "sweat glands|can't sweat much", "overheat|distress|pain|heatstroke"] },
+  { "id": 11, "answer": ["instinct|nursing|kitten|mother", "comfort|content|relax", "mark|scent|territory"] },
+  { "id": 12, "answer": ["continuously grow|grow constantly", "overgrow|malocclusion|sharp points", "pain|eating problems|abscess"] }
 ]

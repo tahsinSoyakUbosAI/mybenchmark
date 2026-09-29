@@ -8,5 +8,8 @@
   { "id": 6, "question": "What is the purpose of a warm-up before riding a horse?", "instruction": "Answer in two or three sentences." },
   { "id": 7, "question": "Why do horses form social hierarchies within a herd?", "instruction": "Answer in two or three sentences." },
   { "id": 8, "question": "How can you tell a horse's approximate age from its teeth?", "instruction": "Answer in two or three sentences." },
-  { "id": 9, "question": "Why should a horse be introduced gradually to a new feed?", "instruction": "Answer in two or three sentences." }
+  { "id": 9, "question": "Why should a horse be introduced gradually to a new feed?", "instruction": "Answer in two or three sentences." },
+  { "id": 10, "question": "Why do dogs pant, and what does heavy panting sometimes signal?", "instruction": "Answer in two or three sentences." },
+  { "id": 11, "question": "Why do cats knead with their paws?", "instruction": "Answer in two or three sentences." },
+  { "id": 12, "question": "Why is it important to keep rabbits' teeth worn down?", "instruction": "Answer in two or three sentences." }
 ]
