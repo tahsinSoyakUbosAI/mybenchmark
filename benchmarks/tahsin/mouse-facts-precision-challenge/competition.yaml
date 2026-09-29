@@ -1,0 +1,51 @@
+version: 2
+title: Mouse Facts: Precision Challenge
+description: Scores an agent on precise, specific mouse-biology facts, rewarding correct detail and penalising confident wrong specifics.
+benchmark_format: unknown
+image: logo.png
+registration_auto_approve: true
+enable_detailed_results: true
+terms: terms.md
+
+pages:
+  - title: Overview
+    file: pages/overview.md
+
+tasks:
+  - index: 0
+    name: Main task
+    description: The single task this benchmark scores.
+    input_data: phase/input_data/
+    reference_data: phase/reference_data/
+    ingestion_program: ingestion_program/
+    scoring_program: scoring_program/
+
+phases:
+  - index: 0
+    name: Main phase
+    description: Submit a model and it is scored against every item.
+    tasks: [0]
+    start: '2020-01-01'
+    max_submissions_per_day: 20
+    max_submissions: 500
+
+leaderboards:
+  - title: Results
+    key: main
+    columns:
+      - title: Overall
+        key: overall_accuracy
+        index: 0
+        sorting: desc
+      - title: Correctness
+        key: correctness
+        index: 1
+        sorting: desc
+      - title: Precision bonus
+        key: precision_bonus
+        index: 2
+        sorting: desc
+      - title: Overreach clean
+        key: overreach_clean
+        index: 3
+        sorting: desc
