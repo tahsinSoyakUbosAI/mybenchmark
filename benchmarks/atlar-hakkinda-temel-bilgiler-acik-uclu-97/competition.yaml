@@ -1,0 +1,42 @@
+version: 2
+title: Atlar Hakkında Temel Bilgiler (Açık Uçlu)
+description: Tests a model's knowledge of horse care, behavior and health, scored
+  on key points and detailed per-question results.
+registration_auto_approve: true
+enable_detailed_results: true
+image: 4c1bce31c35f41278cb7894708c2ba73.png
+terms: terms.md
+pages:
+- title: Overview
+  file: pages/overview.md
+tasks:
+- index: 0
+  name: Main task
+  description: The single task this benchmark scores.
+  ingestion_program: ingestion_program/
+  scoring_program: scoring_program/
+  input_data: phase/input_data/
+  reference_data: phase/reference_data/
+phases:
+- name: Main phase
+  description: Submit a model and it is scored against every item.
+  tasks:
+  - 0
+  start: '2020-01-01'
+  end: '2026-12-31'
+leaderboards:
+- title: Results
+  key: main
+  columns:
+  - title: Overall
+    key: overall_accuracy
+    index: 0
+    sorting: desc
+  - title: Key point coverage
+    key: keyword_coverage
+    index: 1
+    sorting: desc
+  - title: All key points
+    key: all_keywords
+    index: 2
+    sorting: desc
