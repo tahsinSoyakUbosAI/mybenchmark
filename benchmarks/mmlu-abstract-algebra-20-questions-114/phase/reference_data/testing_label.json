@@ -1,0 +1,102 @@
+[
+  {
+    "id": 20,
+    "correct_answer": "A",
+    "category": "general"
+  },
+  {
+    "id": 6,
+    "correct_answer": "A",
+    "category": "general"
+  },
+  {
+    "id": 15,
+    "correct_answer": "C",
+    "category": "general"
+  },
+  {
+    "id": 5,
+    "correct_answer": "B",
+    "category": "general"
+  },
+  {
+    "id": 10,
+    "correct_answer": "C",
+    "category": "general"
+  },
+  {
+    "id": 14,
+    "correct_answer": "C",
+    "category": "general"
+  },
+  {
+    "id": 16,
+    "correct_answer": "B",
+    "category": "general"
+  },
+  {
+    "id": 19,
+    "correct_answer": "D",
+    "category": "general"
+  },
+  {
+    "id": 7,
+    "correct_answer": "A",
+    "category": "general"
+  },
+  {
+    "id": 13,
+    "correct_answer": "A",
+    "category": "general"
+  },
+  {
+    "id": 18,
+    "correct_answer": "C",
+    "category": "general"
+  },
+  {
+    "id": 11,
+    "correct_answer": "C",
+    "category": "general"
+  },
+  {
+    "id": 2,
+    "correct_answer": "C",
+    "category": "general"
+  },
+  {
+    "id": 12,
+    "correct_answer": "C",
+    "category": "general"
+  },
+  {
+    "id": 3,
+    "correct_answer": "D",
+    "category": "general"
+  },
+  {
+    "id": 17,
+    "correct_answer": "C",
+    "category": "general"
+  },
+  {
+    "id": 8,
+    "correct_answer": "D",
+    "category": "general"
+  },
+  {
+    "id": 9,
+    "correct_answer": "B",
+    "category": "general"
+  },
+  {
+    "id": 1,
+    "correct_answer": "B",
+    "category": "general"
+  },
+  {
+    "id": 4,
+    "correct_answer": "B",
+    "category": "general"
+  }
+]

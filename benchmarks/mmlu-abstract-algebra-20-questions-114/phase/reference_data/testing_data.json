@@ -1,0 +1,402 @@
+[
+  {
+    "category": "general",
+    "question": "Statement 1| Every group of order p^2 where p is prime is Abelian. Statement 2 | For a fixed prime p a Sylow p-subgroup of a group G is a normal subgroup of G if and only if it is the only Sylow p-subgroup of G.",
+    "choices": {
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "True, True",
+        "False, False",
+        "True, False",
+        "False, True"
+      ]
+    },
+    "correct_answer": "A",
+    "id": 20
+  },
+  {
+    "category": "general",
+    "question": "Statement 1 | If a group has an element of order 15 it must have at least 8 elements of order 15. Statement 2 | If a group has more than 8 elements of order 15, it must have at least 16 elements of order 15.",
+    "choices": {
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "True, True",
+        "False, False",
+        "True, False",
+        "False, True"
+      ]
+    },
+    "correct_answer": "A",
+    "id": 6
+  },
+  {
+    "category": "general",
+    "question": "Find the maximum possible order for an element of S_n for n = 10.",
+    "choices": {
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "6",
+        "12",
+        "30",
+        "105"
+      ]
+    },
+    "correct_answer": "C",
+    "id": 15
+  },
+  {
+    "category": "general",
+    "question": "Find the product of the given polynomials in the given polynomial ring. f(x) = 4x - 5, g(x) = 2x^2 - 4x + 2 in Z_8[x].",
+    "choices": {
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "2x^2 + 5",
+        "6x^2 + 4x + 6",
+        "0",
+        "x^2 + 1"
+      ]
+    },
+    "correct_answer": "B",
+    "id": 5
+  },
+  {
+    "category": "general",
+    "question": "Find all zeros in the indicated finite field of the given polynomial with coefficients in that field. x^3 + 2x + 2 in Z_7",
+    "choices": {
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "1",
+        "2",
+        "2,3",
+        "6"
+      ]
+    },
+    "correct_answer": "C",
+    "id": 10
+  },
+  {
+    "category": "general",
+    "question": "The polynomial x^3 + 2x^2 + 2x + 1 can be factored into linear factors in Z_7[x]. Find this factorization.",
+    "choices": {
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "(x − 2)(x + 2)(x − 1)",
+        "(x + 1)(x + 4)(x − 2)",
+        "(x + 1)(x − 4)(x − 2)",
+        "(x - 1)(x − 4)(x − 2)"
+      ]
+    },
+    "correct_answer": "C",
+    "id": 14
+  },
+  {
+    "category": "general",
+    "question": "Statement 1 | R is a splitting field of some polynomial over Q. Statement 2 | There is a field with 60 elements.",
+    "choices": {
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "True, True",
+        "False, False",
+        "True, False",
+        "False, True"
+      ]
+    },
+    "correct_answer": "B",
+    "id": 16
+  },
+  {
+    "category": "general",
+    "question": "The set of all real numbers under the usual multiplication operation is not a group since",
+    "choices": {
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "multiplication is not a binary operation",
+        "multiplication is not associative",
+        "identity element does not exist",
+        "zero has no inverse"
+      ]
+    },
+    "correct_answer": "D",
+    "id": 19
+  },
+  {
+    "category": "general",
+    "question": "Statement 1 | Every homomorphic image of a group G is isomorphic to a factor group of G. Statement 2 | The homomorphic images of a group G are the same (up to isomorphism) as the factor groups of G.",
+    "choices": {
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "True, True",
+        "False, False",
+        "True, False",
+        "False, True"
+      ]
+    },
+    "correct_answer": "A",
+    "id": 7
+  },
+  {
+    "category": "general",
+    "question": "Find the order of the factor group (Z_11 x Z_15)/(<1, 1>)",
+    "choices": {
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "1",
+        "2",
+        "5",
+        "11"
+      ]
+    },
+    "correct_answer": "A",
+    "id": 13
+  },
+  {
+    "category": "general",
+    "question": "Compute the product in the given ring. (2,3)(3,5) in Z_5 x Z_9",
+    "choices": {
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "(1,1)",
+        "(3,1)",
+        "(1,6)",
+        "(3,6)"
+      ]
+    },
+    "correct_answer": "C",
+    "id": 18
+  },
+  {
+    "category": "general",
+    "question": "Statement 1 | If H is a subgroup of G and a belongs to G then |aH| = |Ha|. Statement 2 | If H is a subgroup of G and a and b belong to G, then aH and Hb are identical or disjoint.",
+    "choices": {
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "True, True",
+        "False, False",
+        "True, False",
+        "False, True"
+      ]
+    },
+    "correct_answer": "C",
+    "id": 11
+  },
+  {
+    "category": "general",
+    "question": "Let p = (1, 2, 5, 4)(2, 3) in S_5 . Find the index of <p> in S_5.",
+    "choices": {
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "8",
+        "2",
+        "24",
+        "120"
+      ]
+    },
+    "correct_answer": "C",
+    "id": 2
+  },
+  {
+    "category": "general",
+    "question": "If A = {1, 2, 3} then relation S = {(1, 1), (2, 2)} is",
+    "choices": {
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "symmetric only",
+        "anti-symmetric only",
+        "both symmetric and anti-symmetric",
+        "an equivalence relation"
+      ]
+    },
+    "correct_answer": "C",
+    "id": 12
+  },
+  {
+    "category": "general",
+    "question": "Find all zeros in the indicated finite field of the given polynomial with coefficients in that field. x^5 + 3x^3 + x^2 + 2x in Z_5",
+    "choices": {
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "0",
+        "1",
+        "0,1",
+        "0,4"
+      ]
+    },
+    "correct_answer": "D",
+    "id": 3
+  },
+  {
+    "category": "general",
+    "question": "The inverse of -i in the multiplicative group, {1, -1, i , -i} is",
+    "choices": {
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "1",
+        "-1",
+        "i",
+        "-i"
+      ]
+    },
+    "correct_answer": "C",
+    "id": 17
+  },
+  {
+    "category": "general",
+    "question": "Statement 1 | A ring homomorphism is one to one if and only if the kernel is {0}. Statement 2 | Q is an ideal in R.",
+    "choices": {
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "True, True",
+        "False, False",
+        "True, False",
+        "False, True"
+      ]
+    },
+    "correct_answer": "D",
+    "id": 8
+  },
+  {
+    "category": "general",
+    "question": "Find the degree for the given field extension Q(sqrt(2) + sqrt(3)) over Q.",
+    "choices": {
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "0",
+        "4",
+        "2",
+        "6"
+      ]
+    },
+    "correct_answer": "B",
+    "id": 9
+  },
+  {
+    "category": "general",
+    "question": "Find the degree for the given field extension Q(sqrt(2), sqrt(3), sqrt(18)) over Q.",
+    "choices": {
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "0",
+        "4",
+        "2",
+        "6"
+      ]
+    },
+    "correct_answer": "B",
+    "id": 1
+  },
+  {
+    "category": "general",
+    "question": "Statement 1 | A factor group of a non-Abelian group is non-Abelian. Statement 2 | If K is a normal subgroup of H and H is a normal subgroup of G, then K is a normal subgroup of G.",
+    "choices": {
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "True, True",
+        "False, False",
+        "True, False",
+        "False, True"
+      ]
+    },
+    "correct_answer": "B",
+    "id": 4
+  }
+]

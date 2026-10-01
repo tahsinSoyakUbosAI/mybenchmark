@@ -1,0 +1,26 @@
+{
+  "benchmark": 114,
+  "exported_at": "2026-10-01T12:21:32.957Z",
+  "note": "Hashes of the files as the platform last gave them. Written by benchmark-version so an edit made here is never silently overwritten.",
+  "files": {
+    "88d62785daa3453bb60e64fcb54a00c1.jpg": "44b7fec1508d84744c26fbb4aefa978a1de7d9957cf8bf4453309d0e30f78344",
+    "competition.yaml": "4f2ae5945cf419b911fbf2e19a1a2f93c5238f8ee89f6d8a4b9812db4f53535a",
+    "ingestion_program/final_validation.py": "3ea3851015a54091312402bc65a4016f92d0995d2cc3d34294785725c337af0c",
+    "ingestion_program/ingestion.py": "bb9bc5265c4233d76dc147b28de9332467f4f0c4fcd1cc237a6596b80d77d713",
+    "ingestion_program/metadata": "564737570e036b4242710bdd2e3a90b5d655a1bcbc25d8f6381a55b44655b009",
+    "ingestion_program/test_integration.py": "db523fa3994a21065df6cdbe21c1e5773f4feb6d75eaa951c63c8e4a619690c4",
+    "pages/genel-bakış.md": "2d9f34f5b1991b0a911634a15fbac6447f9cad62d88c21af15a123e5be84c700",
+    "pages/veri-seti.md": "82cc11ba7c8293dadf3c45dc255fef70a1372ce1cc7ecc1ee3f991e3b41a85e4",
+    "phase/input_data/public_data/testing_data.json": "65fcfbce50dd92b9e9d142738d94e3d7f219f53d3be668c1ac4678550079d255",
+    "phase/input_data/public_data/turkish_language_benchmark.json": "65fcfbce50dd92b9e9d142738d94e3d7f219f53d3be668c1ac4678550079d255",
+    "phase/input_data/testing_data.json": "65fcfbce50dd92b9e9d142738d94e3d7f219f53d3be668c1ac4678550079d255",
+    "phase/input_data/turkish_language_benchmark.json": "65fcfbce50dd92b9e9d142738d94e3d7f219f53d3be668c1ac4678550079d255",
+    "phase/reference_data/testing_data.json": "a43a00da0b49361bee58f405f9ef70e39c12017d71a53b42c0ec129f5f83fb93",
+    "phase/reference_data/testing_label.json": "7e71919bbd2a2ebfc0b994cf953137a8cb93160fef50af316c01d4177a6bf44b",
+    "scoring_program/llm_judge.py": "94d7baa0376441def360508c115203074731a9652d098a03874dbf2f441aec9d",
+    "scoring_program/llm_judge_config.json": "6709aafd255399f08e9a8196bdde2be8db25ad9da86bdcf3d80f521e53916591",
+    "scoring_program/metadata": "e93afb6fd6f992d42d82d429651e4992f53b47cf56c2568e44c3d9931bcb85ee",
+    "scoring_program/score.py": "c8fe0cffd306e41ee915ab51edc9075637f53b7be78e7790ffe64e7590a0ce9a",
+    "terms.md": "60a0725d321965e6406db3aaadb9eca1336a36ade44d95f34d5484203fcf6501"
+  }
+}

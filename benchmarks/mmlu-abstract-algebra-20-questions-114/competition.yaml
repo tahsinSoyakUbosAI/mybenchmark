@@ -1,0 +1,74 @@
+version: 2
+title: 'MMLU: Abstract Algebra (20 questions)'
+description: '20 questions from the open benchmark cais/mmlu (abstract_algebra, test
+  split), licence mit. Source: https://huggingface.co/datasets/cais/mmlu'
+registration_auto_approve: true
+enable_detailed_results: true
+image: 88d62785daa3453bb60e64fcb54a00c1.jpg
+terms: terms.md
+pages:
+- title: Genel Bakış
+  file: pages/genel-bakış.md
+- title: Veri Seti
+  file: pages/veri-seti.md
+tasks:
+- index: 0
+  name: Değerlendirme Görevi
+  description: Model değerlendirme aşaması - Modeliniz çoktan seçmeli sorulara doğru
+    cevaplar vermeye çalışacaktır.
+  ingestion_program: ingestion_program/
+  scoring_program: scoring_program/
+  input_data: phase/input_data/
+  reference_data: phase/reference_data/
+phases:
+- name: Değerlendirme Aşaması
+  description: Ana değerlendirme aşaması - Modelinizi gönderin ve performansını ölçün.
+    Her bir kategori için ayrı skorlar ve genel bir skor hesaplanacaktır.
+  tasks:
+  - 0
+  start: '2026-10-01'
+  end: '2027-10-01'
+leaderboards:
+- title: Sonuçlar
+  key: main
+  columns:
+  - title: Genel Skor
+    key: overall_score
+    index: 0
+    sorting: desc
+  - title: Doğruluk
+    key: accuracy
+    index: 1
+    sorting: desc
+  - title: Süre (sn)
+    key: duration
+    index: 2
+    sorting: asc
+  - title: Anlamsal Tutarlılık
+    key: semantic_coherence
+    index: 3
+    sorting: desc
+  - title: Akıcılık
+    key: fluency
+    index: 4
+    sorting: desc
+  - title: Cevap Gerekçesi
+    key: response_justification
+    index: 5
+    sorting: desc
+  - title: Düşünce Zinciri
+    key: chain_of_thought_coherence
+    index: 6
+    sorting: desc
+  - title: Olgusal Tutarlılık
+    key: factual_consistency
+    index: 7
+    sorting: desc
+  - title: Halüsinasyon
+    key: hallucination_index
+    index: 8
+    sorting: asc
+  - title: LLM Skoru
+    key: llm_judge_score
+    index: 9
+    sorting: desc

@@ -1,0 +1,176 @@
+{
+    "llm_judge": {
+        "enabled": false,
+        "api_url": "",
+        "api_key": "",
+        "model_name": "",
+        "timeout": 60,
+        "max_retries": 3,
+        "batch_size": 10,
+        "temperature": 0.1,
+        "max_tokens": 500
+    },
+    "_comment": "LLM Judge configuration for Multiple Choice benchmarks. Uses unified common metrics. Configure in competition settings to enable.",
+    
+    "metrics_config": {
+        "traditional_metrics": [
+            {
+                "key": "accuracy",
+                "title": "Doğruluk",
+                "title_en": "Accuracy",
+                "description": "Doğru cevaplanan soruların yüzdesi",
+                "threshold": 80,
+                "weight": 1.0
+            }
+        ],
+        "llm_judge_metrics": [
+            {
+                "key": "semantic_coherence",
+                "title": "Anlamsal Tutarlılık",
+                "title_en": "Semantic Coherence",
+                "description": "Mantıksal akış ve anlam sürekliliği",
+                "threshold": 70,
+                "weight": 0.10,
+                "requires_reasoning": true
+            },
+            {
+                "key": "fluency",
+                "title": "Akıcılık",
+                "title_en": "Fluency",
+                "description": "Dilin doğallığı ve okunabilirliği",
+                "threshold": 75,
+                "weight": 0.08,
+                "requires_reasoning": true
+            },
+            {
+                "key": "response_justification",
+                "title": "Cevap Gerekçesi",
+                "title_en": "Response Justification",
+                "description": "Cevabın gerekçe/atıfla desteklenmesi",
+                "threshold": 70,
+                "weight": 0.07,
+                "requires_reasoning": true
+            },
+            {
+                "key": "chain_of_thought_coherence",
+                "title": "Düşünce Zinciri Tutarlılığı",
+                "title_en": "Chain-of-Thought Coherence",
+                "description": "Düşünme adımlarının mantıksal doğruluğu",
+                "threshold": 70,
+                "weight": 0.10,
+                "requires_reasoning": true
+            },
+            {
+                "key": "answer_traceability",
+                "title": "Cevap İzlenebilirliği",
+                "title_en": "Answer Traceability",
+                "description": "Çözümün adımlardan yeniden oluşturulabilirliği",
+                "threshold": 75,
+                "weight": 0.08,
+                "requires_reasoning": true
+            },
+            {
+                "key": "depth_of_understanding",
+                "title": "Anlama Derinliği",
+                "title_en": "Depth of Understanding",
+                "description": "Çok katmanlı kavramsal anlama",
+                "threshold": 65,
+                "weight": 0.07,
+                "requires_reasoning": true
+            },
+            {
+                "key": "factual_consistency",
+                "title": "Olgusal Tutarlılık",
+                "title_en": "Factual Consistency",
+                "description": "Kaynak metinle olgusal uyum",
+                "threshold": 70,
+                "weight": 0.10,
+                "requires_reasoning": true
+            },
+            {
+                "key": "hallucination_index",
+                "title": "Halüsinasyon İndeksi",
+                "title_en": "Hallucination Index",
+                "description": "Desteklenmemiş iddiaların varlığı (düşük daha iyi)",
+                "threshold": 15,
+                "threshold_type": "max",
+                "weight": 0.08,
+                "requires_reasoning": true
+            },
+            {
+                "key": "knowledge_grounding",
+                "title": "Bilgi Temellendirme",
+                "title_en": "Knowledge Grounding Accuracy",
+                "description": "Cevabın bilgi tabanına eşlenmesi",
+                "threshold": 70,
+                "weight": 0.07,
+                "requires_reasoning": true
+            },
+            {
+                "key": "coverage_score",
+                "title": "Kapsam Skoru",
+                "title_en": "Coverage Score",
+                "description": "Tüm önemli noktaların dahil edilmesi",
+                "threshold": 70,
+                "weight": 0.05,
+                "requires_reasoning": true
+            },
+            {
+                "key": "trust_score",
+                "title": "Güven Skoru",
+                "title_en": "Trust Score",
+                "description": "Yanıtın genel güvenilirliği",
+                "threshold": 70,
+                "weight": 0.10,
+                "requires_reasoning": true
+            },
+            {
+                "key": "unbiased_response",
+                "title": "Tarafsız Yanıt",
+                "title_en": "Unbiased Response Rate",
+                "description": "Politik, cinsiyet, dini önyargı yokluğu",
+                "threshold": 85,
+                "weight": 0.05,
+                "requires_reasoning": true
+            },
+            {
+                "key": "cultural_context_preservation",
+                "title": "Kültürel Bağlam Koruma",
+                "title_en": "Cultural Context Preservation",
+                "description": "Kültürel anlamın doğru işlenmesi",
+                "threshold": 70,
+                "weight": 0.05,
+                "requires_reasoning": true
+            }
+        ],
+        "combined_score_weights": {
+            "accuracy": 0.50,
+            "llm_judge_score": 0.50
+        }
+    },
+    
+    "reasoning_requirements": {
+        "minimum_length": 20,
+        "preferred_length": 100,
+        "maximum_length": 1000,
+        "missing_reasoning_penalty": 0.0
+    },
+    
+    "leaderboard_columns": [
+        {"title": "Doğruluk", "key": "accuracy", "index": 0, "sorting": "desc"},
+        {"title": "Anlamsal Tutarlılık", "key": "semantic_coherence", "index": 1, "sorting": "desc"},
+        {"title": "Akıcılık", "key": "fluency", "index": 2, "sorting": "desc"},
+        {"title": "Cevap Gerekçesi", "key": "response_justification", "index": 3, "sorting": "desc"},
+        {"title": "Düşünce Zinciri", "key": "chain_of_thought_coherence", "index": 4, "sorting": "desc"},
+        {"title": "Cevap İzlenebilirliği", "key": "answer_traceability", "index": 5, "sorting": "desc"},
+        {"title": "Anlama Derinliği", "key": "depth_of_understanding", "index": 6, "sorting": "desc"},
+        {"title": "Olgusal Tutarlılık", "key": "factual_consistency", "index": 7, "sorting": "desc"},
+        {"title": "Halüsinasyon İndeksi", "key": "hallucination_index", "index": 8, "sorting": "asc"},
+        {"title": "Bilgi Temellendirme", "key": "knowledge_grounding", "index": 9, "sorting": "desc"},
+        {"title": "Kapsam Skoru", "key": "coverage_score", "index": 10, "sorting": "desc"},
+        {"title": "Güven Skoru", "key": "trust_score", "index": 11, "sorting": "desc"},
+        {"title": "Tarafsızlık", "key": "unbiased_response", "index": 12, "sorting": "desc"},
+        {"title": "Kültürel Bağlam", "key": "cultural_context_preservation", "index": 13, "sorting": "desc"},
+        {"title": "LLM Judge Genel", "key": "overall_llm_judge_score", "index": 14, "sorting": "desc"}
+    ]
+}
