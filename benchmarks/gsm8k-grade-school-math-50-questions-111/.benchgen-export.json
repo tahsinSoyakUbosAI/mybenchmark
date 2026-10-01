@@ -1,0 +1,18 @@
+{
+  "benchmark": 111,
+  "exported_at": "2026-10-01T12:13:52.647Z",
+  "note": "Hashes of the files as the platform last gave them. Written by benchmark-version so an edit made here is never silently overwritten.",
+  "files": {
+    "competition.yaml": "d2d8e86a43acc9fc8be3e1141623ee9d62dc0a0552d213b9c4275c0c0c61b6b3",
+    "f17cd51305034522b1ad97956e497a8b.png": "c162a52f1399fee0219391acadb462a14e1e588bd1526609346cffd660e1de18",
+    "ingestion_program/ingestion.py": "212760e068a8d6567294ccb5531ebf3229d0910773c89d37cfe04b0aae8539ce",
+    "ingestion_program/metadata.yaml": "3bc3a5fb1334285b622cde59bbd6111238c7aee4ab5ebd00d78aac19d2e4c4c0",
+    "pages/overview.md": "2b53c46e71f2d4af684ed78952b45106b9bb4fbb8ad21f1aed32bfd5e3d148f7",
+    "phase/input_data/items.json": "ae13693115a1585651bf18356320ff6d1656e856f6595eda7f365c3ad674bc55",
+    "phase/reference_data/items.json": "939b2dccb23f12e1910bdc88a0ead1d8b970a4be114a41aa500f7162f9664f55",
+    "scoring_program/item_results.py": "bf6393b5f1426bfe87d17f43388247430a5443299e7c1474c35bf763244cc508",
+    "scoring_program/metadata.yaml": "ce16d0afe260fff1d534de4594eacae1173f45315b8ea5144fcdca1a6e71af8a",
+    "scoring_program/scoring.py": "3b6d253aa55a9f080e4f512f6e26c0c1c176f15e71b01606b12339e6007beaf4",
+    "terms.md": "203354d4a105263df83b98a16c1d3f1d804ab73c3386cf4d8726a43a369da088"
+  }
+}

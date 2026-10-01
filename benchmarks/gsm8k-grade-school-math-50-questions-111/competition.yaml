@@ -1,0 +1,37 @@
+version: 2
+title: GSM8K Grade-School Math (50 questions)
+description: 50 grade-school math word problems from GSM8K (test split), scored on
+  the final numeric answer.
+registration_auto_approve: true
+enable_detailed_results: true
+image: f17cd51305034522b1ad97956e497a8b.png
+terms: terms.md
+pages:
+- title: Overview
+  file: pages/overview.md
+tasks:
+- index: 0
+  name: Main task
+  description: The single task this benchmark scores.
+  ingestion_program: ingestion_program/
+  scoring_program: scoring_program/
+  input_data: phase/input_data/
+  reference_data: phase/reference_data/
+phases:
+- name: Main phase
+  description: Submit a model and it is scored against every item.
+  tasks:
+  - 0
+  start: '2020-01-01'
+leaderboards:
+- title: Results
+  key: main
+  columns:
+  - title: Overall
+    key: overall_accuracy
+    index: 0
+    sorting: desc
+  - title: Numeric accuracy
+    key: numeric_accuracy
+    index: 1
+    sorting: desc
